@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="challenges.css">
+  <title>flexbox</title>
+</head>
+<style>
+  .flex-container {
+    display: flex;
+  }
+</style>
+<body>
+  <div class="flex-container">
+    <div style="background: lightblue; width: 200px;">200px</div>
+    <div style="background: lightpink; width: 75px;">75px</div>
+  </div>
+
+  <div class="flex-container">
+    <div style="background: lightblue; width: 50px;">item1</div>
+    <div style="background: lightpink; flex: 1;">item2</div>
+    <div style="background: lightblue;  width: 75px;">item3</div>
+  </div>
+
+  <div class="flex-container" style="justify-content: space-between;">
+    <div style="background: lightpink;">item1</div>
+    <div style="background: lightpink;">item2</div>
+    <div style="background: lightpink;">item3</div>
+    <div style="background: lightpink;">item4</div>
+  </div>
+
+  <div class="flex-container" style="justify-content: space-between; align-items: center; height: 50px; border: 1px solid #ccc;">
+    <div style="background: lightpink;">item1</div>
+    <div style="background: lightpink;">item2</div>
+  </div>
+
+  <!-- Challenges -->
+  <nav class="nav-one">
+    <div class="nav-item">
+      <div class="navtext">Home</div>
+      <div class="number-icon">14</div>
+    </div>
+    <div class="nav-item">
+      <div class="navtext">Notifications</div>
+      <div class="number-icon">3</div>
+    </div>
+    <div class="nav-item">
+      <div class="navtext">Messages</div>
+      <div class="number-icon">5</div>
+    </div>
+  </nav>
+
+  <nav class="nav-two">
+    <div class="btn-home">
+        Home
+    </div>
+    <input class="searchbar" type="search" placeholder="Search">
+    </div>
+    <button class="btn-download">
+      Download
+    </button>
+  </nav>
+
+  <div class="twitter">
+    <div class="twitter-item">
+      <div class="profile-img">
+        <img src="cat.jpg" alt="">
+      </div>
+      <div class="profile-info">
+        <div class="profile-text-one">Oliver</div>
+        <div class="profile-text-two">the cat</div>
+        <div class="profile-text-three">Popular</div>
+      </div>
+      <div class="profile-btn">
+        <button class="btn-follow">Follow</button>
+      </div>
+    </div>
+    <div class="twitter-item">
+      <div class="profile-img">
+        <img src="cat2.jpg" alt="">
+      </div>
+      <div class="profile-info">
+        <div class="profile-text-one">Mimi</div>
+        <div class="profile-text-two">Sleepy Cat</div>
+        <div class="profile-text-three">Popular</div>
+      </div>
+      <div class="profile-btn">
+        <button class="btn-follow">Follow</button>
+      </div>
+    </div>
+    <div class="twitter-item">
+      <div class="profile-img">
+        <img src="dog.jpg" alt="">
+      </div>
+      <div class="profile-info">
+        <div class="profile-text-one">Rex</div>
+        <div class="profile-text-two">Happy Bulldog</div>
+        <div class="profile-text-three">Popular</div>
+      </div>
+      <div class="profile-btn">
+        <button class="btn-follow">Follow</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

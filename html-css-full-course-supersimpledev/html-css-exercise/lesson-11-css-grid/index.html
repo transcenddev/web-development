@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Exercise</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .exercise-11a {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .exercise-11b {
+      display: grid;
+      grid-template-columns: 50px auto 75px;
+    }
+    .exercise-11c {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 16px;
+      row-gap: 10px;
+      padding: 10px 0;
+    }
+    
+    .exercise-11d {
+      font-family: Arial, Helvetica, sans-serif;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 16px;
+      width: 50%;
+   }
+
+    .card {
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+      margin: 0 5px;
+      border-radius: 5px;
+    }
+
+    .card-body {
+      padding: 5px;
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 5px;
+    }
+
+    .card-img-top {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-title {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .mutual-info {
+      display: grid;
+      grid-template-columns: 1fr 5fr;
+      align-items: center;
+    }
+
+    .card-icon {
+      vertical-align: middle;
+      object-fit: cover;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .card-text {
+      font-size: 0.8rem;
+      color: rgb(96, 96, 96);
+    }
+
+    .card-text:hover {
+      text-decoration: underline;
+    }
+
+    .btn-primary {
+      background-color: rgb(0, 110, 255);
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+  </style>
+
+  <body>
+    <div class="exercise-11a">
+      <div style="background: lightblue;">200px</div>
+      <div style="background: lightpink;">75px</div>
+    </div>
+
+    <div class="exercise-11b">
+      <div style="background: lightblue;">col1</div>
+      <div style="background: lightpink;">col2</div>
+      <div style="background: lightblue;">col3</div>
+    </div>
+
+    <div class="exercise-11c">
+      <div style="background: lightpink;">column</div>
+      <div style="background: lightpink;">column</div>
+      <div style="background: lightpink;">column</div>
+      <div style="background: lightpink;">column</div>
+      <div style="background: lightpink;">column</div>
+      <div style="background: lightpink;">column</div>
+      <div style="background: lightpink;">column</div>
+      <div style="background: lightpink;">column</div>
+    </div>
+    
+    <div class="exercise-11d">
+      <div class="card">
+        <img class="card-img-top" src="facebook-profile/cat.jfif" alt="...">
+        <div class="card-body">
+          <p class="card-title">Oliver</p>
+          <div class="mutual-info">
+            <img class="card-icon" src="facebook-profile/cat.jfif" alt="" >
+            <p class="card-text">2 mutuals friends</p>
+          </div>
+          <button class="btn-primary">
+            Add Friend
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="facebook-profile/cat.jfif" alt="...">
+        <div class="card-body">
+          <p class="card-title">Oliver</p>
+          <div class="mutual-info">
+            <img class="card-icon" src="facebook-profile/cat.jfif" alt="" >
+            <p class="card-text">2 mutuals friends</p>
+          </div>
+          <button class="btn-primary">
+            Add Friend
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="facebook-profile/cat.jfif" alt="...">
+        <div class="card-body">
+          <p class="card-title">Oliver</p>
+          <div class="mutual-info">
+            <img class="card-icon" src="facebook-profile/cat.jfif" alt="" >
+            <p class="card-text">2 mutuals friends</p>
+          </div>
+          <button class="btn-primary">
+            Add Friend
+          </button>
+        </div>
+      </div>
+    </div>  
+  </body>
+</html>
