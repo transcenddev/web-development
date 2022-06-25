@@ -1,0 +1,72 @@
+/* Exercise 13a */
+.exercise-13a {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.item1 {
+  /* change the background color of the item1 */
+  background-color: lightpink;
+  /* set the size of the item1 */
+  width: 150px;
+  height: 100px;
+  /* centering the position of the item1 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1-content {
+  background-color: black;
+  color: #fff;
+  font-size: 1.50rem;
+}
+
+.item2 {
+  background-color: lightblue;
+  /* make the item2 take the all spaces */
+  flex: 1;
+}
+
+/* Exercise 13b */
+.exercise-13b {
+  display: flex;
+  align-items: center;
+}
+
+.div1 {
+  /* change the background color of the item1 */
+  background-color: lightpink;
+  /* set the size of the item1 */
+  width: 150px;
+  height: 100px;
+}
+
+.div2 {
+  /* change the background color of the item1 */
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  height: 100px;
+  font-size: 1.80rem;
+}
+
+.row {
+
+}
+
+.row1 {
+  margin: 0;
+}
+
+.row2 {
+  margin: 0;
+  background-color: black;
+  color: #fff;
+}
+
+.row2-left {
+  background-color: black;
+  color: #fff;
+}
