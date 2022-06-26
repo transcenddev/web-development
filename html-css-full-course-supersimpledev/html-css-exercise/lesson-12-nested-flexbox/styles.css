@@ -126,3 +126,69 @@
 .message {
   color: rgb(88, 88, 88);
 }
+
+
+.exercise-13g {
+  display: flex;
+  border: 1px solid #111;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-picture-container {
+  margin-right: 15px;
+}
+
+.user-picture {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user-content {
+  flex: 1;
+}
+
+.twitter-header {
+  display: flex;
+}
+
+.name {
+  margin-right: 8px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.username {
+  color: rgb(151, 151, 151);
+}
+
+.tweet-content {
+  margin-bottom: 8px;
+}
+
+.embedded-video-container {
+  display: flex;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 5px;
+}
+
+.thumbnail {
+  width: 80px;
+  background-color: rgb(223, 223, 223);
+}
+
+.embedded-video-content {
+  flex: 1;
+  padding: 10px;
+}
+
+.embedded-link {
+  text-decoration: none;
+  color: rgb(118, 116, 116);
+}
+
+.embedded-video-text {
+  margin: 0;
+}
