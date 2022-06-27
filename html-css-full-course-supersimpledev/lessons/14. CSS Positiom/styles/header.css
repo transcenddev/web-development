@@ -3,6 +3,11 @@
   flex-direction: row;
   justify-content: space-between;
   height: 55px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .left-section {
