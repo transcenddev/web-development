@@ -4,9 +4,141 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CSS Position</title>
 </head>
-<body>
+<body style="
+  height: 300vh;
+">
+  <!-- 14a -->
+  <!-- <div style="
+    background-color: #000;
+    color: #fff;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  ">
+  bottom-right 
+  </div> -->
+
+  <!-- 14b -->
+  <!-- <div style="
+  background-color: green;
+  color: #fff;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  ">
+    right sidebar
+  </div> -->
+
+  <!-- 14c -->
+  <!-- <div style="
+    background-color: #000;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  ">
+  </div> -->
+
+  <!-- 14d -->
+  <!-- <div 
+    class="overlay"
+    style="background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    "
+    
+  >
+    <div 
+      class="modal"
+      style="background-color: #fff; color: #000; 
+      border-radius: 5px; width: 300px; padding: 14px;
+      font-family: Arial;"
+    >
+      <h1 style="margin: 0;">Modal Title</h1>
+      <p>This is a modal</p>
+      <button>Close</button>
+    </div>
+  </div> -->
+
+  <!-- 14e -->
+  <!-- <div style="
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    ">
+    <div style="margin-right: 10px">
+      <img 
+      style="height: 40px; width: 40px; object-fit: cover;
+      border-radius: 50%;" 
+      src="cat.jpg" alt=""
+      
+      >
+    </div>
+    <div style="flex: 1">
+      <p style="font-weight: bold;">Oliver Cat</p>
+    </div>
+    <div>
+      <button style="background-color: blue; color: #fff; font-family: Arial, Helvetica, sans-serif; font-weight: bold; border: none; border-radius: 5px; padding: 10px;">Add Friend</button>
+      <button style="background-color: rgb(234, 234, 234); color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-weight: bold; border: none; border-radius: 5px; padding: 10px;">Message</button>
+    </div>
+  </div> -->
+
+  <!-- 14f -->
+  <div style="
+    background-color: rgb(32, 32, 32);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    display: flex; flex-direction: column;
+
+    padding: 10px;
   
+  ">
+    <img style="border-radius: 50%; object-fit: cover; margin-bottom: 10px;" src="cat.jpg" alt="" height="40px" width="40px">
+    <img style="border-radius: 50%; object-fit: cover; margin-bottom: 10px;" src="cat2.jpg" alt="" height="40px" width="40px">
+    <img style="border-radius: 50%; object-fit: cover;" src="dog.jpg" alt="" height="40px" width="40px">
+  </div>
+
+  <div style="
+    background-color: rgb(56, 56, 56); width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 60px;
+    bottom: 0;
+
+    padding: 10px;
+
+  ">
+    <div style="display: flex; align-items: center;">
+      <p style="flex: 1; color: #fff; font-weight: bold;">INFO</p>
+      <div style="color: rgb(169, 169, 169); font-size: 2rem;">&#43;</div>
+    </div>
+    <div style="display: flex; flex-direction: column; line-height: 0; color: rgb(169, 169, 169);">
+      <p>&#x23; new-videos</p>
+      <p>&#x23; updates</p>
+      <p>&#x23; faq</p>
+    </div>
+
+  </div>
 </body>
 </html>
