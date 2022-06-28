@@ -1,0 +1,53 @@
+.card {
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 430px;
+  padding: 10px;
+}
+
+.shirt-container {
+  position: relative;
+}
+
+.shirt-image {
+  width: 280px;
+}
+
+.discount {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  padding: 2px 6px;
+
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+
+/* Add to Cart */
+.add-to-cart-button-background {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 170px;
+  width: 100%;
+
+  /* position the button background to the bottom */
+  position: absolute;
+  bottom: 0;
+
+  /* make the button center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-cart-button {
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  border: 1px solid #111;
+  padding: 5px 10px;
+
+  /* when hover over the button change the mouse cursor to pointer */
+  cursor: pointer;
+}
