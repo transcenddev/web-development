@@ -21,7 +21,7 @@
 }
 
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 40px;
 }
 
@@ -57,4 +57,15 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+
+/* Remove the text underline */
+.video-link, .channel-link {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+}
+
+/* Remove the pointer cursor when hovering over */
+.video-stats {
+  pointer-events: none;
 }
