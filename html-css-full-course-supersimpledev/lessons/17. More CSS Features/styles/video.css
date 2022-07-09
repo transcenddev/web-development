@@ -11,6 +11,17 @@
   color: black !important;
 }
 
+@media (min-width: 1000px) {
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .video-author .channel-link, .video-stats {
+    font-size: 14px !important;
+  }
+}
+
 .video-preview {
   cursor: pointer;
 }
@@ -58,7 +69,7 @@
   row-gap: 40px;
 }
 
-
+/* This will activate when the scree size is 750px or less */
 @media (max-width: 750px) {
   .video-grid {
     grid-template-columns: 1fr 1fr;
