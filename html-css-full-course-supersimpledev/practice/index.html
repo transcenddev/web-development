@@ -4,11 +4,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/header.css">
   <title>Youtube</title>
 </head>
 <body>
-  <header>
-    
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="images/icons/hamburger-menu.svg" alt="">
+      <img class="youtube-logo" src="images/icons/youtube-logo.svg" alt="">
+    </div>
+    <div class="middle-section">
+      <input class="searchbar" placeholder="Search" type="text" name="" id="">
+      <button class="search-button  tooltip-container">
+        <img class="search-icon" src="images/icons/search.svg" alt="">
+        <div class="tooltip">Search</div>
+      </button>
+      <div class="voice-search tooltip-container">
+        <img class="voice-search-icon" src="images/icons/voice-search-icon.svg" alt="">
+        <div class="tooltip">Search with your voice</div>
+      </div>
+    </div>
+    <div class="right-section">
+      <div class="youtube-upload tooltip-container">
+        <img class="youtube-uploads-icon" src="images/icons/upload.svg" alt="">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="youtube-apps tooltip-container">
+        <img class="youtube-apps-icon" src="images/icons/youtube-apps.svg" alt="">
+        <div class="tooltip">Youtube Apps</div>
+      </div>
+      <div class="youtube-notifications tooltip-container">
+        <img class="youtube-notifications-icon" src="images/icons/notifications.svg" alt="">
+        <div class="notification-count">3</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <img class="user-channel-profile" src="images/channel-pictures/my-channel.jpeg" alt="">
+    </div>
   </header>
 </body>
 </html>
