@@ -1,0 +1,32 @@
+.navbar {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  width: 75px;
+}
+
+.nav-item {
+  height: 75px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  cursor: pointer;
+}
+
+.nav-item img {
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.nav-item:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+.nav-link {
+  font-size: 0.625rem;
+}
