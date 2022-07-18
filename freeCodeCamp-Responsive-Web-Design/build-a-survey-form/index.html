@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Import Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+   <!-- Import CSS  -->
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">
+    Thank you for taking the time to complete this survey.
+  </p>
+  
+  <form action="#" id="survey-form">
+    <fieldset>
+      <label id="name-label">
+        Name <input id="name" type="text" placeholder="Enter your name" required>
+      </label>
+      <label id="email-label">
+        Email <input id="email" type="email" placeholder="Enter your email" required>
+      </label>
+      <label id="number-label">
+        Age (optional)
+        <input type="number" name="" id="number"  min="13" max="120"  placeholder="Enter your age" required>
+      </label>
+      <label>
+        Gender
+        <select id="dropdown">
+          <option value="male" name="role">Male</option>
+          <option value="female" name="role">Female</option>
+          <option value="prefer not to say" name="role">Prefer not to Say</option>
+          <option value="other" name="role">Other</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label for=""> Which animal do you like?</label>
+      <label for="">
+        <input class="input-checkbox" type="checkbox" name="prefer" id="" value="cat"> Cat
+      </label>
+      <label for="">
+        <input class="input-checkbox" type="checkbox" name="prefer" id="" value="dog">Dog
+      </label>
+      <label for="">
+        <input class="input-checkbox" type="checkbox" name="prefer" id="" value="other"> Other
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label for="">
+        Can you give me a hug?
+      </label>
+
+      <label for="">
+        <input class="input-radio" type="radio" name="user-recommend" id="" 
+        value="definitely"> Definitely
+      </label>
+      <label for="">
+        <input class="input-radio" type="radio" name="user-recommend" id="" value="maybe"> Maybe
+      </label>
+      <label for="">
+        <input class="input-radio" type="radio" name="user-recommend" id="" value="not sure"> Not sure
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label for="">
+        Any comments?
+        <textarea rows="3" cols="" placeholder="Enter your message here..."></textarea>
+      </label>
+    </fieldset>
+
+    <input id="submit" type="submit" value="Submit">
+  </form>
+</body>
+</html>
