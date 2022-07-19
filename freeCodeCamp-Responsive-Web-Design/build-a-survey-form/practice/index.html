@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Form</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to complete this survey.</p>
+    </header>
+    <form action="#" id="survey-form">
+      <!-- <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to complete this survey.</p> -->
+      <fieldset class="user-info">
+        <label for="name">
+          Name
+          <input type="text" name="name" id="name" placeholder="Enter your name">
+        </label>
+        <label for="email">
+          Email
+          <input type="email" name="email" id="email" placeholder="Enter your email">
+        </label>
+        <label for="age">
+          Age (optional)
+          <input type="number" min="13" max="120" name="age" id="age" placeholder="Enter your age">
+        </label>
+        <label for="gender">
+          Gender
+          <select name="gender" id="gender">
+            <option value="select" disabled>Select your gender</option>
+            <option value="male">Male</option>
+            <option value="fmale">Female</option>
+            <option value="">Prefer Not to Say</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset class="question">
+        <legend>Which animal do you like?</legend>
+        <label for="cat">
+          <input type="checkbox" name="cat" id="cat">
+          Cat
+        </label>
+        <label for="dog">
+          <input type="checkbox" name="dog" id="dog">
+          Dog
+        </label>
+        <label for="other">
+          <input type="checkbox" name="other" id="other">
+          Other
+        </label>
+      </fieldset>
+      <fieldset class="question">
+        <legend>Can you give me a hug?</legend>
+        <label for="definitely">
+          <input type="radio" name="radio" id="definitely">
+          Definitely
+        </label>
+        <label for="maybe">
+          <input type="radio" name="radio" id="maybe">
+          Maybe
+        </label>
+        <label for="not sure">
+          <input type="radio" name="radio" id="not sure">
+          Not sure
+        </label>
+      </fieldset>
+      <fieldset class="message">
+        <label for="message">
+          Any comments?
+          <textarea name="message" id="" cols="30" rows="3" placeholder="Enter your message here...">
+          </textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit-btn">
+    </form>
+  </main>
+</body>
+</html>
