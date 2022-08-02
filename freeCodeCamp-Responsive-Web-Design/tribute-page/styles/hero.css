@@ -1,0 +1,19 @@
+section#hero #img-div {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+#image {
+  width: clamp(200px, 100%, 500px);
+}
+
+#title {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+#img-caption {
+  font-size: 1.1rem;
+  width: clamp(200px, 100%, 1200px);
+}
