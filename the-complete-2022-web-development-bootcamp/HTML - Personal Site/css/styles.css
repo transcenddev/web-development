@@ -1,0 +1,23 @@
+body {
+  background-color: #EAF6F6;
+  font-family: 'Inter', sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.checked {
+  color: orange;
+}
+
+hr {
+  background-color: transparent;
+  border-color: #666;
+  border-style: dotted;
+  border-bottom: none;
+  border-width: 5px;
+  height: 0;
+  width: 1.5%;
+}
