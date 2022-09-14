@@ -1,20 +1,48 @@
-body {
-  background-color: #fff;
-  font-family: 'Inter', serif;
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p,
+a,
+h2,
+h3 {
+  margin: 1em 0;
+}
+
 .top-container {
-  background-color: gray;
+  background-color: #8FBDD3;
   position: relative;
   height: 100vh;
-  display: grid grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.textone {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin-bottom: 0.5rem;
 }
 
 .text {
   z-index: 100;
+  position: absolute;
+  top: 200px;
+  text-align: center;
 }
 
 .clouds {
@@ -22,23 +50,53 @@ body {
   position: absolute;
 }
 
-.mountains {
+.clouds.left {
   position: absolute;
+  left: 400px;
+  top: 250px;
+}
 
+.clouds.right {
+  position: absolute;
+  right: 500px;
+}
+
+.clouds.inner {
+  position: absolute;
+  bottom: 160px;
+  left: 600px;
+}
+
+.mountains {
   max-width: 700px;
+  min-width: 100px;
   width: 100%;
-  bottom: 0;
+  position: absolute;
+  bottom: -102px;
 }
 
+/* Middle container */
 
-.middle-container {
-  background-color: red;
-  height: 200px;
+.middle-container {}
+
+.profile-picture {
   width: 200px;
 }
 
-.bottom-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+.icon {
+  width: 400px;
 }
+
+.skills {
+  display: grid;
+  grid-template-row: 1fr 1fr;
+  row-gap: 2em;
+  place-items: center;
+}
+
+.contact-me {}
+
+
+/* Bottom container */
+
+.bottom-container {}
