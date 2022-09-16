@@ -15,6 +15,24 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1,
+h2 {
+  color: #66BFBF;
+}
+
+h1 {
+  line-height: 2;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h3,
+a {
+  color: #11999E;
+}
+
 p,
 a,
 h2,
@@ -23,7 +41,7 @@ h3 {
 }
 
 .top-container {
-  background-color: #8FBDD3;
+  background-color: rgb(200, 238, 255);
   position: relative;
   height: 100vh;
   display: flex;
@@ -35,7 +53,6 @@ h3 {
 .textone {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
-  margin-bottom: 0.5rem;
 }
 
 .text {
@@ -48,6 +65,7 @@ h3 {
 .clouds {
   width: 200px;
   position: absolute;
+
 }
 
 .clouds.left {
@@ -58,7 +76,8 @@ h3 {
 
 .clouds.right {
   position: absolute;
-  right: 500px;
+  right: 400px;
+  bottom: 200px;
 }
 
 .clouds.inner {
@@ -80,6 +99,8 @@ h3 {
 .middle-container {}
 
 .profile-picture {
+  border-radius: 50%;
+  margin-top: 2rem;
   width: 200px;
 }
 
@@ -92,6 +113,17 @@ h3 {
   grid-template-row: 1fr 1fr;
   row-gap: 2em;
   place-items: center;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+}
+
+.icon {
+  width: 25%;
 }
 
 .contact-me {}
