@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  background-color: blueviolet;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+
+  /* height: 120px; */
+  padding: 7.5em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+}
