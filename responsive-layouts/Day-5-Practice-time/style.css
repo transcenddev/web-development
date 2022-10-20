@@ -20,16 +20,37 @@ body {
 }
 
 .hero-content {
-  width: 28vw;
-  line-height: 31.54px;
+  width: 55%;
 }
 
-.hero-title,
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+
+  margin-bottom: 0.5em;
+}
+
 .hero-text {
-  margin-bottom: 1em;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin-bottom: 2em;
 }
 
 
 .button {
+  background: #38CFD9;
   color: #000;
+  font-size: 1.3125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+
+  border-radius: 240px;
+
+  width: 35%;
+  padding: 0.5em 1em;
+
+  overflow: hidden;
+  cursor: pointer;
 }
