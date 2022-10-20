@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto';
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero {
+  background: #23424A;
+  padding: 200px 0;
+}
+
+.hero-content {
+  width: 28vw;
+  line-height: 31.54px;
+}
+
+.hero-title,
+.hero-text {
+  margin-bottom: 1em;
+}
+
+
+.button {
+  color: #000;
+}
