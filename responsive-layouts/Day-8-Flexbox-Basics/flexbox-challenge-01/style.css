@@ -21,6 +21,19 @@ h1 {
     margin: 0 auto;
 }
 
+.row {
+    display: flex;
+}
+
+.col {
+    width: 100%;
+}
+
+.col+.col {
+    margin-left: 1em;
+}
+
+
 .hero {
     padding: 100px 0;
     background-color: #23424A;
@@ -53,17 +66,10 @@ h1 {
 
 /* Flexbox Basics */
 
-.row {
-    display: flex;
-}
-
-.col+.col {
-    margin-left: 2em;
-}
-
 .three-col {
-    padding: 75px 0;
     text-align: center;
+
+    padding: 3em 0;
 }
 
 .three-col h2 {
@@ -75,5 +81,5 @@ h1 {
     color: #fff;
     text-align: center;
 
-    padding: 75px 0;
+    padding: 3em 0;
 }
