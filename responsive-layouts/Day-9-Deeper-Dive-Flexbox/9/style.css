@@ -44,9 +44,15 @@ h1 {
     width: 60%;
 }
 
+.hero__image {
+    width: 40%;
+    align-self: flex-start;
+}
+
 .hero p {
     margin-bottom: 3em;
 }
+
 
 .btn {
     display: inline-block;
