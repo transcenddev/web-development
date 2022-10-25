@@ -1,0 +1,26 @@
+.container {
+  background: lightblue;
+  width: 100%;
+  max-width: 50vh;
+  padding: 1em;
+  margin: 40vh auto;
+
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* shorthand for code above */
+  flex-flow: row nowrap;
+
+  justify-content: flex-start;
+  align-items: baseline ;
+}
+
+.item {
+  background: lightpink;
+  margin: 0.5em;
+}
+
+.big {
+  font-size: 2rem;
+}
