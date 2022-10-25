@@ -12,7 +12,9 @@
 
 */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -41,7 +43,7 @@ h1 {
     /* display: flex => flex container */
     display: flex;
     justify-content: space-between;
-    
+
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -51,9 +53,6 @@ h1 {
     width: 100%;
 }
 
-.col + .col {
-    margin-left: 30px;
-}
 
 .hero {
     padding: 100px 0;
@@ -61,7 +60,7 @@ h1 {
     color: #FFF;
 }
 
-.hero__text { 
+.hero__text {
     width: 62%;
 }
 
@@ -74,10 +73,33 @@ h1 {
     margin-bottom: 3em;
 }
 
+.services {
+    padding: 2em 0;
+}
+
+.services__left {
+    width: 65%;
+}
+
+.services__left h2 {
+    color: #136C72;
+    font-size: 2.25rem;
+}
+
+.services__right {
+    width: 35%;
+    flex-direction: column;
+
+    background: #136C72;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em;
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #23424A;
     font-weight: 900;
     background-color: #38CFD9;
@@ -87,5 +109,5 @@ h1 {
 
 .btn:hover,
 .btn:focus {
-    opacity: .75; 
+    opacity: .75;
 }
