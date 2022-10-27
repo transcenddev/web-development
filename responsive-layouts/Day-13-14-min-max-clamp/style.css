@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: system-ui, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.content {
+  background: #282c34;
+  color: #fff;
+  width: 70%;
+  max-width: 500px;
+  /* shorthand for the width + max-width */
+  width: min(500px, 70%);
+
+  padding: 1em 2em;
+}
+
+P {
+  font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+}
