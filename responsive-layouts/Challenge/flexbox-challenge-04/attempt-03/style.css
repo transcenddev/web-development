@@ -1,0 +1,124 @@
+/* 
+Colors
+#F3EED9
+#824936
+#222C2A
+
+Font
+
+1 | Roboto Light font-size: 18px;
+2 | Playfair Display Black font-size: 60px;
+3 | Playfair Display Black font-size: 36px;
+4 | Roboto Regular font-size: 21px;
+
+
+Layout
+maximum width of a “container”
+is 1128px
+
+in the cery first section try setting a min-height 
+of 660px and using what we’ve covered in
+flexbox to center the content vertically
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  padding: 4em 0;
+}
+
+.container {
+  width: 85%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  color: #F3EED9;
+}
+
+.section-title--dark {
+  color: #824936;
+}
+
+
+.intro {
+  background: #F3EED9;
+  padding: 5em 0;
+  text-align: center;
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.intro__text {
+  font-size: 1.125rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #222C2A;
+}
+
+.intro__title {
+  font-size: 2rem;
+  color: #824936;
+  line-height: 1.1;
+}
+
+.section-two {
+  color: #222C2A;
+}
+
+.section-three {
+  background-color: #222C2A;
+  color: #fff;
+}
+
+.section-four {
+  background-color: #824936;
+  color: #fff;
+}
+
+
+/* 800px or bigger */
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col+.col {
+    margin-left: 5em;
+  }
+
+  .intro__title {
+    font-size: 3.75rem;
+  }
+}
