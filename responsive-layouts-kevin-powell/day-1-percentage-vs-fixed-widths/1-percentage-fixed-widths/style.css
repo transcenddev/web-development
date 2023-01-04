@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.parent {
+  background-color: lightpink;
+  padding: 50px;
+
+  /* width: 900px; */
+  margin: 0 auto;
+  width: 80%;
+
+  /* overflow: hidden; */
+
+}
+
+.child {
+  background-color: lightblue;
+  /* normally I wouldn't include height, it's jsudt to get us started */
+  width: 50%;
+  height: 250px;
+}

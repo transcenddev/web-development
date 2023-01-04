@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #282c34;
+  color: #fff;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 5em; /* 5em = 5 * 16px = 80px */
+
+  /* height: 300px; */
+}

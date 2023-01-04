@@ -1,0 +1,38 @@
+body {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+
+  font-family: 'Source Code Pro', monospace;
+}
+
+.intro {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3em;
+}
+
+.flex-item {
+  width: 50%;
+}
+
+.flex-item+.flex-item {
+  margin-left: 2em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2em;
+}
+
+.grid-item p {
+  padding: 0;
+}
