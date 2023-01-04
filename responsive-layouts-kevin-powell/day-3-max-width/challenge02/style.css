@@ -24,15 +24,18 @@ body {
 }
 
 .container {
-  background: #23424a;
-  color: white;
-  padding: 3.125em 0;
   /* padding: 50px 0;  50 % 16 = 3.125em*/
-}
-
-.intro-content,
-.main-content {
   width: 80%;
   max-width: 750px;
   margin: 0 auto;
+}
+
+.intro {
+  background: #23424a;
+  color: white;
+  padding: 3.125em 0;
+}
+
+.intro-content {
+  width: 50%;
 }
