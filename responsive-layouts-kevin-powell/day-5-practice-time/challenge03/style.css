@@ -7,11 +7,21 @@
 
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3125rem;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
   width: 80%;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -19,4 +29,27 @@ body {
   padding: 100px 0;
   background-color: #23424A;
   color: #fff;
+}
+
+.hero__text {
+  width: 60%;
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #32c0d7;
+  color: #23424A;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.75em 2em;
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
 }
