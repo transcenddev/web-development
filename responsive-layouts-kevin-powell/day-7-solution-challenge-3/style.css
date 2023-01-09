@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.315rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: #203f4a;
+  color: #FFF;
+}
+
+.hero__text {
+  width: 60%;
+}
+
+.hero p {
+  margin-bottom: 2em;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #2bc1dc;
+  color: #203f4a;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0.7em 2em;
+  border-radius: 100px;
+}
