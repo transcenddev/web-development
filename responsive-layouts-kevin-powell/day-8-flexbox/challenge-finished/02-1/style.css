@@ -26,12 +26,16 @@ h1 {
 
     /* default => row */
     flex-direction: row;
+
+    /* can't use yet */
+    /* gap: 100px */
 }
 
 .col {
     width: 100%;
 }
 
+/* Add gaps between columns */
 .col+.col {
     margin-left: 1em;
 }
