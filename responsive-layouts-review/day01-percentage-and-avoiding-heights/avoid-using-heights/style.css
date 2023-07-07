@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #111;
+  color: #fff;
+
+  width: 70%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 5em;
+  /* height: 300px */
+}
+
+
+/* 
+ Avoid using heights because when you minimize it, contents will messed up.
+
+*/

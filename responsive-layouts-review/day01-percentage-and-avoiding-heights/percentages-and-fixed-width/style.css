@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.parent {
+  background-color: #555;
+  padding: 50px;
+
+  /* width: 900px; */
+  width: 80%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+.child {
+  background-color: #ccc;
+  padding: 120px;
+  /* height: 250px; */
+}
+
+
+/* 
+  width: 900px;
+  Using fixed width will make the content overflow.
+
+  width: 50%;
+  Using percentage in widths will make the website responsive and adapt when it is being minimize.
+*/
