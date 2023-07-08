@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #23424a;
+  color: white;
+
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+
+  padding: 2em;
+}
+
+.intro-content {
+  width: 50%;
+}
+
+/* 
+
+maximimum width of a container,so when the website gets bigger it's going to stop growing.
+max-width: 750px;
+
+*/
